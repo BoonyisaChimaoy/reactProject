@@ -1,20 +1,44 @@
-import { View, Text } from 'react-native'
+import { StyleSheet, View, Text } from 'react-native'
 import React from 'react'
 import Logo from './components/Logo'
 import User from './components/User'
+import LotsOfGreetings from './components/LotsOfGreetings'
+import MyCustomTextWith from './components/MyCustomTextWith'
+import Styles from './components/Styles'
+import Count from './components/Count'
+import InputText from './components/InputText'
+import UserNameandPassword from './components/UserNameandPassword'
+
 
 const App = () => {
-  const showData = () => {
-    alert("Hello Button")
-  }
+ 
   return (
-    <View>
-      <Logo/>
+    <View style = {styles.container}>
+      {/* <Logo/> */}
      
-      <User/>
+      {/* <User/> */}
+      
+      {/* <LotsOfGreetings/> */}
+
+      {/* <MyCustomTextWith/> */}
+
+      {/* <Count/> */}
+
+      {/* <InputText/> */}
+      
+      <UserNameandPassword/>
     </View>
     
   )
 }
 
 export default App
+
+const styles = StyleSheet.create({
+  container: {
+    flex:1,
+    textAlign:'center',
+    alignItems:'center',
+    justifyContent:'center'
+  }
+})
