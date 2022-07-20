@@ -8,6 +8,8 @@ import Styles from './components/Styles'
 import Count from './components/Count'
 import InputText from './components/InputText'
 import UserNameandPassword from './components/UserNameandPassword'
+import UserNamePassword from './components/UserNamePassword'
+import AlertComponent from './components/AlertComponent'
 
 
 const App = () => {
@@ -26,7 +28,13 @@ const App = () => {
 
       {/* <InputText/> */}
       
-      <UserNameandPassword/>
+      {/* <UserNameandPassword/> */}
+
+      {/* <UserNamePassword/> */}
+
+      <AlertComponent/>
+
+      
     </View>
     
   )
