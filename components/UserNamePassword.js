@@ -47,7 +47,9 @@ export default UserNamePassword
 
 const styles = StyleSheet.create({
     container: {
+        width:300,
         flex: 1,
+        height:45,
         padding: 35,
     },
     textInputStyle: {

@@ -23,7 +23,7 @@ const ImageWithTextInput = () => {
             />
             <TextInput
                 style ={{flex:1}}
-                placeholder = 'Enter Your Name Here'
+                placeholder = 'Enter Your Moblie No Here'
             />
         </View>
       </View>
