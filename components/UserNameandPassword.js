@@ -40,6 +40,6 @@ const styles = StyleSheet.create({
       marginTop:20,
       marginBottom:10,
       backgroundColor:'#e8e8e8'
-    },
+    }
     
   })
