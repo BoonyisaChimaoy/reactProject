@@ -1,18 +1,18 @@
-import { StyleSheet, View, Text, TextInput } from 'react-native'
+import { StyleSheet, View, Text, TextInput, Button } from 'react-native'
 import React, { useState } from 'react'
-import { Button } from 'react-native-web';
+
 
 const UserNamePassword = () => {
-    const [email,setEmail] = useState();
-    const [username,setUsername] = useState();
+    const [email,setEmail] = useState('');
+    const [username,setUsername] = useState('');
     const checkTextInput= () => {
         //Check for the Name TextInput
-        if (username.trim()) {
+        if (!username.trim()) {
             alert('Please Enter Name');
             return;
         }
         //Check for the Email TextInput
-        if (email.trim()) {
+        if (!email.trim()) {
             alert('Please Enter Email');
             return;
         }

@@ -10,6 +10,7 @@ import InputText from './components/InputText'
 import UserNameandPassword from './components/UserNameandPassword'
 import UserNamePassword from './components/UserNamePassword'
 import AlertComponent from './components/AlertComponent'
+import ImageWithTextInput from './components/ImageWithTextInput'
 
 
 const App = () => {
@@ -30,11 +31,12 @@ const App = () => {
       
       {/* <UserNameandPassword/> */}
 
-      {/* <UserNamePassword/> */}
+      <UserNamePassword/>
 
-      <AlertComponent/>
+      {/* <AlertComponent/> */}
 
-      
+      {/* <ImageWithTextInput/> */}
+
     </View>
     
   )
